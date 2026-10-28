@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/stories/the-same-brain-typed-or-spoken/",
+ "kind": "story",
+ "title": "The same brain, typed or spoken",
+ "subtitle": "Why a spoken request and a typed request produce exactly one durable turn in the same conversation, and what it took to keep the two from drifting apart",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Real-time audio pipeline engineering",
+  "Microsoft Teams",
+  "Microsoft Entra ID",
+  "Rust",
+  "Idempotency, exactly-once effects and crash recovery"
+ ],
+ "stats": [
+  {
+   "value": "699 ms",
+   "label": "from a spoken request to the synthesiser admitting the quick opener"
+  },
+  {
+   "value": "2",
+   "label": "models: a light one keeps speech fast, the heavy brain does the work"
+  },
+  {
+   "value": "4",
+   "label": "identities: operator, employee, seat, voice session"
+  }
+ ],
+ "lede": "Talking to Helix and typing to Helix reach the same conversation and the same history. That sounds like a feature. It is a constraint, and it ruled out the obvious design. The obvious design points the voice engine's model endpoint at the control centre, so speech becomes just another client. I rejected it because it discards turn identity: the voice engine generates speculatively, retries, and interrupts, and each of those would have become a duplicate piece of durable work in the conversation. What I built instead is a control-only bridge. The voice engine keeps sole authority over audio and over the floor, who is speaking and who may interrupt.",
+ "quote": "A spoken projection can never outrun the written answer.",
+ "evidence": [
+  "Real-time voice AI: spoken and typed requests produce exactly one durable turn in the same conversation, and an interruption cancels that exact turn.",
+  "Latency engineering for voice AI: 699 ms from a spoken request to the synthesiser admitting the quick opener, with a light model keeping speech fast and a heavy one doing the work.",
+  "Identity separation in AI systems: operator, employee, seat and voice session kept as 4 identities that never merge, so each can change without touching the others."
+ ],
+ "problem": "collaboration",
+ "canonical": "https://coreyjames.ai/stories/the-same-brain-typed-or-spoken/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/the-same-brain-typed-or-spoken"
+}

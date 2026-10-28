@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/stories/solving-the-digital-employee-identity/",
+ "kind": "story",
+ "title": "Solving the digital-employee identity",
+ "subtitle": "Working out, from real tenant evidence, how an AI employee can legitimately answer, call and act inside Microsoft 365",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Microsoft Graph",
+  "Entra Agent ID",
+  "Agent 365",
+  "C#",
+  "Rust",
+  "Certificate credentials",
+  "Identity and access management for AI agents"
+ ],
+ "stats": [
+  {
+   "value": "3",
+   "label": "Microsoft principals, each with permissions the others lack"
+  },
+  {
+   "value": "1",
+   "label": "native media platform, owned by a transport-only client"
+  }
+ ],
+ "lede": "Microsoft's Agent 365 lets an organisation give an AI a real identity in its tenant: a digital employee that can be called, join meetings and act under its own name. Making one actually do those things involves three different Microsoft principals, some combinations the platform rejects, and behaviour the documentation did not yet cover. I probed the real tenant, captured what the wire said, and composed the paths that work. The employee answers calls, joins meetings and shares its screen. An identity that can answer an inbound call is not necessarily one that can place an outbound call, own a media session, or act in a meeting.",
+ "quote": "An identity layer that spoofs is not an identity layer.",
+ "evidence": [
+  "Identity for AI agents in Microsoft 365 and Entra: a digital employee composed from 3 Microsoft principals, each job given to the principal the tenant itself proved could do it.",
+  "Credential isolation for AI agents: the model asks for an action while the server mints and checks employee-scoped Graph tokens, so no token reaches the model.",
+  "Microsoft Graph integration: an employee that answers calls, joins meetings, chats, presents and calls on raised hands under its own name.",
+  "Evidence-led platform engineering: identity paths settled by probing the tenant and keeping the wire traffic where the documentation stopped."
+ ],
+ "problem": "collaboration",
+ "canonical": "https://coreyjames.ai/stories/solving-the-digital-employee-identity/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/solving-the-digital-employee-identity"
+}

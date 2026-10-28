@@ -1,0 +1,51 @@
+{
+ "url": "https://coreyjames.ai/systems/helix/",
+ "kind": "system",
+ "title": "Helix",
+ "subtitle": "Humans and several AI minds in one room, and one colleague who can be reached wherever the work is: in team chat, by voice, and in a Teams call",
+ "systems": [],
+ "technologies": [
+  "C# / .NET 8",
+  "Microsoft real-time media SDK",
+  "Microsoft Graph",
+  "Entra Agent ID",
+  "Rust",
+  "Tokio",
+  "Audio pipeline engineering",
+  "Speech recognition model",
+  "Speech synthesis",
+  "Mattermost"
+ ],
+ "stats": [
+  {
+   "value": "0.9 s",
+   "label": "from the end of a question to the first spoken sound, down from 2.1"
+  },
+  {
+   "value": "8 seats",
+   "label": "from three model families, each with its own identity in the room"
+  },
+  {
+   "value": "4",
+   "label": "council designs; three rejected after real use, one adopted"
+  },
+  {
+   "value": "30 min",
+   "label": "Teams media soak with zero stalls, and a forced mid-call reconnect"
+  }
+ ],
+ "lede": "Organisations adopting AI end up with a drawer of chatbots and dashboards. Helix is one place instead. On an open-source team chat server it is a multiplayer AI workspace: several humans and several model seats in one room, each seat a frontier model working under its own authenticated session with its own identity, answering only when addressed, keeping a conversation that survives restarts. In council mode the seats deliberate, challenge one another and ratify a plan with the human as chair. The same brain answers by voice, in a Microsoft Teams call, and in a meeting as a governed digital employee with its own Microsoft 365 identity.",
+ "quote": "I rejected three of my own council designs in real use, because agreement without deliberation is worthless.",
+ "evidence": [
+  "Multi-agent collaboration systems: humans and eight model seats from three model families in one chat room, each seat under its own authenticated session and answering only when addressed.",
+  "Consensus and deliberation protocols for AI agents: a council that closes only on exact unanimous agreement on a numbered revision, built four times with three designs rejected after real use.",
+  "Real-time voice AI on local GPUs: a full-duplex Rust voice runtime of about 51,000 lines with 750 tests, question-to-first-sound cut from 2.1 s to 0.9 s, under a floor that only a person can take.",
+  "Speech recognition and synthesis pipelines: GPU recognition cut from about a second to 38 to 74 ms, and streaming built for a voice model that came without it, first frame in about 300 ms.",
+  "Microsoft Teams real-time media: a self-hosted AI participant in Teams calls over Microsoft's real-time media SDK, a 30-minute soak with zero stalls and a forced mid-call reconnect.",
+  "Identity for AI agents in Microsoft 365 and Entra: a digital employee with its own Microsoft 365 identity acting in meetings, with tokens minted per employee on the server."
+ ],
+ "canonical": "https://coreyjames.ai/systems/helix/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix"
+}

@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/stories/fast-transcripts-that-were-wrong/",
+ "kind": "story",
+ "title": "Fast transcripts that were wrong",
+ "subtitle": "GPU speech recognition that was far faster than the CPU path and quietly dropped sentences, and the correctness gate every GPU integration in the voice engine now passes",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Speech recognition model",
+  "Real-time audio pipeline engineering",
+  "NVIDIA Blackwell GPUs",
+  "Docker",
+  "ML evaluation methodology"
+ ],
+ "stats": [
+  {
+   "value": "25×",
+   "label": "faster than the CPU path at best on the GPU, 18× at worst"
+  },
+  {
+   "value": "4",
+   "label": "workarounds in the tensor library, none of which held"
+  }
+ ],
+ "lede": "The voice engine recognises speech one utterance at a time: the voice-activity detector decides where a turn ends, and the whole turn goes to the recogniser in one call. On the CPU that call had a floor of about a second, because the recogniser pads every input to a thirty-second window before it listens. A second of dead air after every sentence is the difference between a colleague and a voicemail, so the recogniser moved to a server on a Blackwell GPU, and turns came back in 38 to 74 milliseconds. The transcripts looked fine in the log and were wrong in the room. Whole sentences were missing.",
+ "quote": "A system can be fast and green and wrong.",
+ "evidence": [
+  "Speech recognition pipelines on GPUs: recognition 18 to 25 times faster than the CPU path, with a fallback runtime at 235 ms per turn.",
+  "ML output correctness testing: a fixture comparing a known recording with its known transcript, added after a fast GPU path silently dropped whole sentences.",
+  "Root-cause analysis on new GPU toolchains: 4 workarounds in the tensor library failed and a one-line base-image change brought the dropped sentences back."
+ ],
+ "problem": "voice",
+ "canonical": "https://coreyjames.ai/stories/fast-transcripts-that-were-wrong/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/fast-transcripts-that-were-wrong"
+}

@@ -1,0 +1,37 @@
+{
+ "url": "https://coreyjames.ai/stories/listen-only-to-me/",
+ "kind": "story",
+ "title": "Listen only to me",
+ "subtitle": "An opt-in filter for a desk microphone that hears its operator and not the television, enrolled without keeping a recording, switched by asking, and deliberately not used on Teams, with the reasons written down",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Real-time audio pipeline engineering",
+  "Rust",
+  "Applied cryptography",
+  "Conversational turn-taking and barge-in"
+ ],
+ "stats": [
+  {
+   "value": "8 × 8 s",
+   "label": "guided enrolment samples, none of them kept"
+  },
+  {
+   "value": "3",
+   "label": "policies: open, shadow and locked"
+  }
+ ],
+ "lede": "A desk microphone hears everything in the room: the operator, a visitor, the television, loud typing. An assistant that can take actions on a spoken word should know whose word it is. The voice engine has an optional voiceprint filter that recognises the operator's voice and silences every other voice before the engine can hear it, so another speaker cannot interrupt the agent, be transcribed, or trigger a tool. Enrolment covers the ways a person actually sits at a desk, through the same echo cancellation and denoising the engine applies to speech, so the profile matches what the engine will hear. Incoming audio is scored against the enrolled profile, and the decision is one of three.",
+ "quote": "The cost of silencing the operator is higher than the cost of admitting a doubtful burst.",
+ "evidence": [
+  "Speaker verification for voice AI: an opt-in voiceprint filter that hears its operator and silences other voices, enrolled from 8 guided samples with no recording kept.",
+  "Privacy-preserving design: enrolment keeps an embedding and discards the audio, and the profile is written atomically and readable by the operator alone.",
+  "Voice-controlled policy: 3 filter policies switched by asking, with a locked filter failing loudly when its profile is missing."
+ ],
+ "problem": "voice",
+ "canonical": "https://coreyjames.ai/stories/listen-only-to-me/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/listen-only-to-me"
+}

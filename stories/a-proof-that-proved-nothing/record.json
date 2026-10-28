@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/stories/a-proof-that-proved-nothing/",
+ "kind": "story",
+ "title": "A proof that proved nothing",
+ "subtitle": "An echo-cancellation score looked excellent until an unrelated reference scored higher; the rebuilt proof uses a negative control, and the same discipline runs through the voice engine's tests",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Real-time audio pipeline engineering",
+  "ML evaluation methodology",
+  "Rust",
+  "Determinism and numerical reproducibility"
+ ],
+ "stats": [
+  {
+   "value": "5 of 5",
+   "label": "content words recovered from synthesised speech"
+  },
+  {
+   "value": "0",
+   "label": "for a pure tone, which came back as a description of music"
+  },
+  {
+   "value": "2",
+   "label": "layers of echo cancellation, the engine and the desk device"
+  }
+ ],
+ "lede": "The voice engine cancels its own echo with the WebRTC AEC3 algorithm, fed the engine's own playback as the reference, in ten-millisecond blocks, with the delay seeded from the device clocks. The first proof that it worked reported an echo return loss enhancement of 36.8 decibels on an echo-only recording, which is an excellent number. Then the same test was run with an uncorrelated reference, audio that had nothing to do with the echo, and it scored 37.8. The canceller has a suppressor stage that gates low-level signal, and on an echo-only recording the suppressor was doing all the work: whatever the reference, it attenuated the echo because the echo was all there was.",
+ "quote": "A proof that passes with the wrong input is a proof of the test harness.",
+ "evidence": [
+  "ML evaluation methodology: an echo-cancellation score of 36.8 thrown out after an unrelated reference scored 37.8; the proof was rebuilt around a negative control.",
+  "Echo cancellation engineering: AEC3 fed the engine's own playback as its reference in ten-millisecond blocks, tested under double-talk.",
+  "Speech pipeline testing: synthesised speech recovering 5 of 5 content words, with a pure tone coming back as 0."
+ ],
+ "problem": "proof",
+ "canonical": "https://coreyjames.ai/stories/a-proof-that-proved-nothing/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/a-proof-that-proved-nothing"
+}

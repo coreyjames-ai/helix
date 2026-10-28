@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/stories/three-councils-i-threw-away/",
+ "kind": "story",
+ "title": "Three councils I threw away",
+ "subtitle": "Four designs for several models deliberating toward one plan, and why only the one that behaves like a real group conversation survived real use",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Mattermost",
+  "Rust",
+  "PostgreSQL",
+  "Idempotency, exactly-once effects and crash recovery",
+  "Governed AI-assisted software engineering"
+ ],
+ "stats": [
+  {
+   "value": "9",
+   "label": "defects the first council surfaced in itself on its first real use"
+  },
+  {
+   "value": "7",
+   "label": "candidate revisions in one costing council before agreement"
+  },
+  {
+   "value": "21 of 24",
+   "label": "contribution slots committed when a mid-turn restart stalled a council"
+  }
+ ],
+ "lede": "A council is Helix's answer to a question I kept running into: how do you get several strong models to deliberate toward a plan without one of them dominating, without a runaway loop, and with a human in control? I built it four times. The first three worked as software and failed as councils. All four protocols are still in the tree, because the rejections are where the judgment is. Every version opens the same way. The operator presses a council button in the chat composer, or chooses to invoke a council about a particular post or file. A builder collects the problem, the seats, and the budgets.",
+ "quote": "Each rejected council passed its tests.",
+ "evidence": [
+  "Consensus and deliberation protocols for AI agents: four council designs built and used, three rejected after real use, the survivor closing only on unanimous agreement with one revision.",
+  "Defect discovery through real use: the first council surfaced 9 defects in itself on its first real use.",
+  "Versioned agreement for AI planning: a costing council moved through 7 candidate revisions before agreement, each new revision invalidating earlier stances.",
+  "Crash recovery in multi-agent sessions: a mid-turn restart left 21 of 24 contribution slots committed and the interrupted turns marked, with nothing lost."
+ ],
+ "problem": "collaboration",
+ "canonical": "https://coreyjames.ai/stories/three-councils-i-threw-away/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/three-councils-i-threw-away"
+}

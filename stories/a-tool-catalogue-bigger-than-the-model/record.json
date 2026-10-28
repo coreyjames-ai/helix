@@ -1,0 +1,38 @@
+{
+ "url": "https://coreyjames.ai/stories/a-tool-catalogue-bigger-than-the-model/",
+ "kind": "story",
+ "title": "A tool catalogue bigger than the model",
+ "subtitle": "Why a voice assistant played its opener and then fell silent, the two-stage fix I rolled back, and the boundary that replaced it",
+ "systems": [
+  "helix",
+  "fafohive"
+ ],
+ "technologies": [
+  "Model Context Protocol (MCP)",
+  "MCP tool design",
+  "Rust",
+  "Context engineering and persistent agent memory"
+ ],
+ "stats": [
+  {
+   "value": "88",
+   "label": "remote tools offered to the voice brain"
+  },
+  {
+   "value": "300",
+   "label": "provider operations kept out of voice by configuration"
+  }
+ ],
+ "lede": "The voice engine reaches the world through tools: native ones for assigning work, saving and searching memory, and setting the voiceprint policy, and remote ones over the tool protocol, including the meeting-action server that lets it join a Teams meeting, raise a hand or put a deck on screen. One day the assistant began speaking its short opener and then falling silent where the full answer should have been. The tool list alone was larger than the model's entire 32,768-token window, so every full request was refused by the serving layer, while the tool-free opener sailed through and made the failure look like a stall.",
+ "quote": "It worked and it was unusable.",
+ "evidence": [
+  "MCP tool design: diagnosed a voice assistant that fell silent because its tool list was larger than the model's 32,768-token window.",
+  "Context budgeting for small models: tools scoped to each surface, keeping 300 provider operations out of voice while 88 remote tools stay available.",
+  "Robust tool calling: tool arguments repaired when a small model misnames keys, with idempotent receipts so a spoken retry never runs work twice."
+ ],
+ "problem": "small-models",
+ "canonical": "https://coreyjames.ai/stories/a-tool-catalogue-bigger-than-the-model/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/a-tool-catalogue-bigger-than-the-model"
+}

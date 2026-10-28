@@ -1,0 +1,42 @@
+{
+ "url": "https://coreyjames.ai/stories/from-two-seconds-to-under-one/",
+ "kind": "story",
+ "title": "From two seconds to under one",
+ "subtitle": "Question to first sound, taken apart stage by stage: the silence window, recognition, reasoning, the first spoken sentence and synthesis, each cut named and each benchmark row carrying its own definition",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Real-time audio pipeline engineering",
+  "Conversational turn-taking and barge-in",
+  "Speech recognition model",
+  "Performance engineering and benchmarking"
+ ],
+ "stats": [
+  {
+   "value": "400 ms",
+   "label": "cut at most on complex answers by keeping the first sentence short, 300 at least"
+  },
+  {
+   "value": "5,668",
+   "label": "turns in a ten-minute loopback soak, every one processed"
+  },
+  {
+   "value": "96 KB",
+   "label": "memory growth across that soak"
+  }
+ ],
+ "lede": "A spoken assistant is judged by one interval: the gap between the moment a person stops talking and the moment they hear a reply begin. In the voice engine's first working version that gap was more than twice what it is now. Before the work, the chain was roughly: 700 milliseconds of silence before the engine decided the person had finished, about a second for speech recognition on the CPU, a few tens of milliseconds for the reasoning model's first words, and about 310 milliseconds for the synthesiser's first frame of audio, with the first sentence having to complete before it could be spoken.",
+ "quote": "Nothing about the reply got shorter. The gap was taken apart into its stages.",
+ "evidence": [
+  "Latency engineering for voice AI: question to first sound taken apart stage by stage and cut from about two seconds to under one.",
+  "Response shaping for voice: keeping the first spoken sentence short cut 300 to 400 ms on complex answers.",
+  "Soak testing and memory stability: 5,668 turns in a ten-minute loopback soak, every one processed, with 96 KB of memory growth.",
+  "Performance benchmarking methodology: every figure in the benchmark file tied to its own row and definition, from which event to which, warm or cold."
+ ],
+ "problem": "voice",
+ "canonical": "https://coreyjames.ai/stories/from-two-seconds-to-under-one/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/from-two-seconds-to-under-one"
+}

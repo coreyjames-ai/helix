@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/stories/from-a-conversation-to-a-work-order/",
+ "kind": "story",
+ "title": "From a conversation to a work order",
+ "subtitle": "Helix wraps my governance platform without modifying it: talk happens in the room, durable work goes through the platform's own commands, and results come back",
+ "systems": [
+  "helix",
+  "agentos",
+  "fafohive"
+ ],
+ "technologies": [
+  "Model Context Protocol (MCP)",
+  "PostgreSQL",
+  "Rust",
+  "Governed AI-assisted software engineering",
+  "Context engineering and persistent agent memory"
+ ],
+ "stats": [
+  {
+   "value": "1",
+   "label": "platform system at a time, imported by its exact id"
+  },
+  {
+   "value": "3",
+   "label": "kinds of result that come back into the room"
+  }
+ ],
+ "lede": "A conversation is where decisions get made. A work order is where work gets done. Helix sits between the two, and the rule that shapes it is written at the top of its charter: it is a wrapper over my governance platform, AgentOS. It consumes the platform's binaries, command line and work graph, and it never modifies them. Durable work and durable knowledge go to the platform's own primitives, work orders, the work graph and the memory service. Ephemeral conversation stays in the interface layer. Work can start on either side. Starting in Helix, the operator creates planning-only systems, projects and work orders, each with its channels, files and grounding.",
+ "quote": "There is never estate-wide retrieval by omission.",
+ "evidence": [
+  "Agent orchestration: a chat room that turns a conversation into a governed work order through the platform's own commands, never by writing to its database.",
+  "Scoped retrieval for AI agents: context retrieved at the level of invocation, never estate-wide by omission, with writes only to the exact current scope.",
+  "Grounding and context assembly: an immutable per-turn envelope carrying a grounding packet stamped with a revision watermark, rejected when the two disagree.",
+  "Graceful degradation: only unresolvable ancestry is fatal; other memory sources degrade by name and the conversation carries on."
+ ],
+ "problem": "collaboration",
+ "canonical": "https://coreyjames.ai/stories/from-a-conversation-to-a-work-order/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/from-a-conversation-to-a-work-order"
+}

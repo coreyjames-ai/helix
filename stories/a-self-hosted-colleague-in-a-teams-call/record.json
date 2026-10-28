@@ -1,0 +1,47 @@
+{
+ "url": "https://coreyjames.ai/stories/a-self-hosted-colleague-in-a-teams-call/",
+ "kind": "story",
+ "title": "A self-hosted colleague in a Teams call",
+ "subtitle": "Bridging Microsoft's real-time media stack to a voice AI that never leaves my own hardware",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "C# / .NET 8",
+  "Microsoft real-time media SDK",
+  "Azure",
+  "Rust",
+  "Tokio",
+  "WebSocket binary protocols",
+  "Audio pipeline engineering",
+  "Speech recognition model",
+  "Speech synthesis"
+ ],
+ "stats": [
+  {
+   "value": "50.001/s",
+   "label": "buffers per second across the soak, against 20 ms pacing"
+  },
+  {
+   "value": "250 ms",
+   "label": "the single retry in a forced mid-call reconnect"
+  },
+  {
+   "value": "67 ms",
+   "label": "round-trip media latency at most in a single probe, 65 at least"
+  }
+ ],
+ "lede": "I rang a Microsoft Teams number, a digital employee answered, and we had a two-way spoken conversation. The speech recognition, the conversation engine and the voice all ran on GPUs in my own rack. Nothing about the call touched a third-party AI cloud. Making that possible meant building a bridge between two worlds that were never designed to meet: Microsoft's Windows-only real-time media stack and a Linux voice engine, joined by a purpose-built audio link that survived a thirty-minute soak and a forced mid-call reconnect before I would call it done. Microsoft Teams will hand raw call audio to a bot, and only to a Windows application built on Microsoft's real-time media SDK.",
+ "quote": "Replaying produces a colleague who answers a question from twenty seconds ago.",
+ "evidence": [
+  "Microsoft Teams real-time media: a self-hosted AI colleague in Teams calls through a Windows media bridge on Azure, carrying 20 ms buffers at 50.001 per second with no receive stalls.",
+  "Binary wire protocol design: one authenticated full-duplex audio link per call, implemented in C# and in Rust and proven byte-identical against golden test vectors.",
+  "Distributed systems correctness: a forced mid-call reconnect resumed the same call after a single 250 ms retry, dropping audio from the gap instead of replaying it.",
+  "Real-time voice AI on local GPUs: recognition, conversation and voice kept on my own hardware behind the engine's existing audio seam, with 65 to 67 ms round-trip media latency."
+ ],
+ "problem": "voice",
+ "canonical": "https://coreyjames.ai/stories/a-self-hosted-colleague-in-a-teams-call/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/a-self-hosted-colleague-in-a-teams-call"
+}

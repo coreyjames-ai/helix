@@ -1,0 +1,46 @@
+{
+ "url": "https://coreyjames.ai/stories/one-percent-network-seventy-eight-percent-gpu/",
+ "kind": "story",
+ "title": "One percent network, seventy-eight percent GPU",
+ "subtitle": "A slow Teams turn was blamed on the cloud hop; measurement showed the network was about one percent of it and a speech GPU shared with an embedding service was most of the rest, so the compute moved and the cloud stayed",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Performance engineering and benchmarking",
+  "Microsoft real-time media SDK",
+  "Real-time audio pipeline engineering",
+  "GPU admission control and co-residency"
+ ],
+ "stats": [
+  {
+   "value": "65 ms",
+   "label": "round trip between the cloud bridge and the home lab"
+  },
+  {
+   "value": "1.317 s",
+   "label": "end of speech to first reply audio on a responsive Teams turn"
+  },
+  {
+   "value": "100%",
+   "label": "speech GPU utilisation at peak in the slow window, never below 95"
+  },
+  {
+   "value": "5,859",
+   "label": "frames validated in a closed-loop call, zero rejects"
+  }
+ ],
+ "lede": "The Teams voice path crosses a cloud: audio leaves Microsoft's media platform, reaches a Windows bridge on an Azure virtual machine, and crosses an authenticated WebSocket to the voice engine on my own hardware, then back. When a Teams turn took about six seconds from the end of a question to the first sound of the answer, the cloud hop was the obvious suspect. The transport was measured on its own first. The bridge's own numbers were sound. A thirty-minute soak carried 91,643 receive buffers at 50.001 per second with zero stalls, one send stall and no reconnects.",
+ "quote": "The obvious suspect was wrong.",
+ "evidence": [
+  "Performance diagnosis: a slow Teams turn blamed on the cloud hop measured at about one percent network and about seventy-eight percent contended speech GPU.",
+  "Latency measurement: per-stage timing of a Teams turn, recognition at 253 ms and synthesis at 4.847 s to first frame, before synthesis moved to a GPU of its own.",
+  "Microsoft Teams real-time media: a cloud bridge carrying 91,643 buffers at 50.001 per second with zero stalls and a 65 ms round trip to the home lab.",
+  "Closed-loop media validation: 5,859 frames validated in a closed-loop call with zero rejects."
+ ],
+ "problem": "voice",
+ "canonical": "https://coreyjames.ai/stories/one-percent-network-seventy-eight-percent-gpu/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/one-percent-network-seventy-eight-percent-gpu"
+}

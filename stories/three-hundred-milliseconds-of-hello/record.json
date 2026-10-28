@@ -1,0 +1,40 @@
+{
+ "url": "https://coreyjames.ai/stories/three-hundred-milliseconds-of-hello/",
+ "kind": "story",
+ "title": "Three hundred milliseconds of hello",
+ "subtitle": "The lines an assistant says most, the greeting, the thinking fillers, the short acknowledgements, are pre-rendered per voice at session start and play in under a millisecond, through the same cancellation path as synthesised speech",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Neural speech synthesis",
+  "Real-time audio pipeline engineering",
+  "Rust"
+ ],
+ "stats": [
+  {
+   "value": "≈8 s",
+   "label": "added to session boot to fill the cache"
+  },
+  {
+   "value": "5.3 s",
+   "label": "to condition a voice the first time, nothing after"
+  },
+  {
+   "value": "8",
+   "label": "voices held in the bounded conditioning cache"
+  }
+ ],
+ "lede": "The streaming synthesiser in Building the streaming my speech model did not ship produces its first frame of audio about 300 milliseconds after it is given a sentence, and that figure is flat: eleven characters or two hundred and thirty, the first frame costs the same. For a long answer it is a fine price. For \"Hello\", \"One moment\" and \"Let me check\", which a voice assistant says many times an hour, it is a tax on the words that most need to be instant.",
+ "quote": "Cached audio has to obey every rule synthesised audio obeys.",
+ "evidence": [
+  "Latency engineering for voice AI: the lines an assistant says most pre-rendered per voice at session start, so they skip the roughly 300 ms a synthesiser takes to its first frame.",
+  "Caching design for real-time audio: cached audio held to every rule synthesised audio obeys, filled by about 8 s added to session boot.",
+  "Bounded caches: voice conditioning cached for 8 voices, 5.3 s the first time and nothing after."
+ ],
+ "problem": "voice",
+ "canonical": "https://coreyjames.ai/stories/three-hundred-milliseconds-of-hello/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/three-hundred-milliseconds-of-hello"
+}

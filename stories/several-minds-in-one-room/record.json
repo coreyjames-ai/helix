@@ -1,0 +1,44 @@
+{
+ "url": "https://coreyjames.ai/stories/several-minds-in-one-room/",
+ "kind": "story",
+ "title": "Several minds in one room",
+ "subtitle": "A team chat where humans and several model seats work together, each seat answering only when addressed, with no loop an agent can start",
+ "systems": [
+  "helix",
+  "fafohive"
+ ],
+ "technologies": [
+  "Mattermost",
+  "Rust",
+  "PostgreSQL",
+  "Context engineering and persistent agent memory",
+  "Idempotency, exactly-once effects and crash recovery"
+ ],
+ "stats": [
+  {
+   "value": "8",
+   "label": "fixed model seats, plus Helix itself"
+  },
+  {
+   "value": "3",
+   "label": "model families behind those seats"
+  },
+  {
+   "value": "30 s",
+   "label": "deadline for a prompt to appear in the provider's own transcript"
+  }
+ ],
+ "lede": "Most AI chat is one person and one model in a private window. My work is a team: several people, several models from different families, documents on the table, and decisions that have to outlive the session. Helix puts all of that in one room on an open-source team chat server. Each model is a named participant with its own identity. A person addresses a seat the way they address a colleague, the seat answers in the right thread under its own name, and the room keeps the history. The chat server runs unmodified from a pinned image, with its bundled calling and AI plugins switched off, so Helix is the only AI and voice authority in the room.",
+ "quote": "The room is the authority, and no model holds the shared state.",
+ "evidence": [
+  "Multi-agent collaboration systems: people and 8 fixed model seats from 3 model families working in one chat room, each seat answering only when addressed.",
+  "Exactly-once delivery and crash recovery: intake and output keyed so a retry repairs a missing post and never runs a model turn twice.",
+  "Context engineering for LLM agents: each turn assembled from a bounded set of inputs, older context left in the seat's own session, credentials never in a prompt.",
+  "Delivery verification for agent prompts: a prompt counts as delivered only when it appears in the provider's own transcript within 30 s."
+ ],
+ "problem": "collaboration",
+ "canonical": "https://coreyjames.ai/stories/several-minds-in-one-room/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/several-minds-in-one-room"
+}

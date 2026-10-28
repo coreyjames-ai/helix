@@ -1,0 +1,45 @@
+{
+ "url": "https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/",
+ "kind": "story",
+ "title": "A meeting attendee that will not fake it",
+ "subtitle": "An AI participant that chats, presents slides and shares a screen in Teams, and says plainly what the platform will not let it do",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Rust MCP server",
+  "Microsoft Graph",
+  "Teams meeting-stage apps",
+  "Node.js",
+  "Headless Linux desktops",
+  "FFmpeg and H.264",
+  "C#"
+ ],
+ "stats": [
+  {
+   "value": "13",
+   "label": "meeting actions, each with an exact schema"
+  },
+  {
+   "value": "1",
+   "label": "action that refuses by design: raising its own hand"
+  },
+  {
+   "value": "55 of 55",
+   "label": "unit tests passing before a real meeting had proved the tools"
+  }
+ ],
+ "lede": "I wanted the digital employee to be a useful participant in a Teams meeting: follow the chat, put slides on the stage and drive them, notice who has a hand up and call on them, share a terminal or a browser so people can watch it work. It does all of that. It does not raise its own hand, because Microsoft's platform offers no supported way for it to, and I built that as an honest refusal instead of reporting a hand raised from local state. Meeting participation is many small capabilities, each with its own platform seam, and some of those seams do not exist. Native PowerPoint Live exposes no control or event hooks.",
+ "quote": "Tests that pass are not a meeting that worked.",
+ "evidence": [
+  "MCP server design: 13 meeting actions for an AI participant in Teams, each with an exact schema, acting as one named employee.",
+  "Evidence-gated acceptance: an action counts as done only once proven in a real meeting, not when its 55 of 55 unit tests pass.",
+  "Screen sharing from Linux agents into Teams: a headless desktop captured as H.264 frames and published into the meeting through a Windows media bridge.",
+  "Honest failure design for AI agents: the one action the platform does not support, raising its own hand, returns a named refusal instead of a fake."
+ ],
+ "problem": "collaboration",
+ "canonical": "https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/a-meeting-attendee-that-will-not-fake-it"
+}

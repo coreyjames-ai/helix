@@ -1,0 +1,41 @@
+{
+ "url": "https://coreyjames.ai/stories/interruptions-that-only-people-can-make/",
+ "kind": "story",
+ "title": "Interruptions that only people can make",
+ "subtitle": "Echo sounded like a person to the detector; the rules were set so a person always wins the floor, the agent's own voice never does, the first word of an interruption is heard, and a false stop re-speaks instead of going quiet",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Conversational turn-taking and barge-in",
+  "Real-time audio pipeline engineering",
+  "Rust"
+ ],
+ "stats": [
+  {
+   "value": "18",
+   "label": "attack cases in an adversarial review before anyone heard the feature"
+  },
+  {
+   "value": "1",
+   "label": "device period of audio, at most, left after a flush"
+  },
+  {
+   "value": "0 s",
+   "label": "of dead air after a false stop: the answer is spoken again"
+  }
+ ],
+ "lede": "A voice assistant that cannot be interrupted is a lecture. One that can be interrupted by its own echo is worse, because it stops mid-sentence for nobody. The voice engine runs full duplex, listening while it speaks, and the design problem is to make a person's interruption instant and everything else inert. While the agent is listening, it starts a turn the moment speech begins. While it is speaking, it is harder to stop: an interruption has to be sustained speech with a confidence the detector measures, because residual echo and room noise come back as brief, low-confidence bursts and a person does not.",
+ "quote": "The agent's own voice can never take the floor from a person.",
+ "evidence": [
+  "Barge-in and turn-taking for voice AI: a person can always take the floor, while the agent's own echo and other AI voices cannot.",
+  "Adversarial review of AI features: 18 attack cases reviewed before anyone heard the interruption feature.",
+  "Real-time audio cancellation: one confirmed interruption cancels reasoning, synthesis, the speaker queue and the Teams call together.",
+  "Recovery from false positives: a stop nobody made leaves 0 s of dead air, because the killed answer is spoken again word for word."
+ ],
+ "problem": "voice",
+ "canonical": "https://coreyjames.ai/stories/interruptions-that-only-people-can-make/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/interruptions-that-only-people-can-make"
+}

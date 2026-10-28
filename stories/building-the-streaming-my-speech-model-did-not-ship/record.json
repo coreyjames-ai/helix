@@ -1,0 +1,43 @@
+{
+ "url": "https://coreyjames.ai/stories/building-the-streaming-my-speech-model-did-not-ship/",
+ "kind": "story",
+ "title": "Building the streaming my speech model did not ship",
+ "subtitle": "The open-weight voice model I chose had no streaming hook, so I ported its token loop, decoded its audio in chunks and pinned its diffusion noise so the joins are seamless",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Neural speech synthesis",
+  "Real-time audio pipeline engineering",
+  "Python",
+  "PyTorch",
+  "NVIDIA Blackwell GPUs"
+ ],
+ "stats": [
+  {
+   "value": "8",
+   "label": "synthesisers in the bake-off"
+  },
+  {
+   "value": "12",
+   "label": "tokens before the first chunk is released"
+  },
+  {
+   "value": "56",
+   "label": "voices registered, each persona with its own"
+  }
+ ],
+ "lede": "The voice model was chosen in a bake-off on the criteria that matter in a conversation: time to first audio, real-time factor, memory, licence, voice cloning and streaming. The winner carried a permissive licence. One law came out of the bake-off and stands over every voice on the site: never clone a real human voice without documented consent. The winner had one problem. Its released package produced audio in a batch: about 1.6 seconds to the first sound regardless of how short the sentence was. That is a fixed tax on every reply, and the package exposed no way to stream.",
+ "quote": "A small patch over the sampler is the difference between streaming that works and streaming that crackles.",
+ "evidence": [
+  "Speech synthesis engineering: streaming built for an open-weight voice model that had none, cutting time to first audio to about 0.3 s from about 1.6.",
+  "Model evaluation and selection: 8 synthesisers compared on time to first audio, real-time factor, memory, licence, voice cloning and streaming.",
+  "Diffusion sampling control: noise pinned across chunk overlaps so every join renders identically and streams without clicks, first chunk after 12 tokens.",
+  "Responsible voice AI: 56 registered voices under a rule never to clone a real human voice without documented consent."
+ ],
+ "problem": "voice",
+ "canonical": "https://coreyjames.ai/stories/building-the-streaming-my-speech-model-did-not-ship/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/building-the-streaming-my-speech-model-did-not-ship"
+}

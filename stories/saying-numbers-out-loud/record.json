@@ -1,0 +1,36 @@
+{
+ "url": "https://coreyjames.ai/stories/saying-numbers-out-loud/",
+ "kind": "story",
+ "title": "Saying numbers out loud",
+ "subtitle": "A chemical formula came out as a sneeze and a thousand as ten thousand; a speech contract and a deterministic scrubber give the voice speakable text while the screen keeps the written answer",
+ "systems": [
+  "helix"
+ ],
+ "technologies": [
+  "Neural speech synthesis",
+  "Rust",
+  "Conversational turn-taking and barge-in"
+ ],
+ "stats": [
+  {
+   "value": "≈800",
+   "label": "lines in the deterministic scrubber"
+  },
+  {
+   "value": "500",
+   "label": "character ceiling on any clause, set by the synthesiser's own limits"
+  }
+ ],
+ "lede": "A reasoning model writes for a screen. It writes \"H₂O\", \"8.832\", \"abcdef.md\", \"U.S.\" and \"1000\", and every one of those is a trap for a synthesiser that speaks phonemes. In real use the formula for water came out as a sneeze, a thousand was spoken as ten thousand, a filename was read as a word, and the abbreviation for the country became \"u dot s\". Each is small. Together they are the difference between an assistant that sounds like a colleague and one that sounds like a machine reading a document. The first layer is a speech contract in the prompt. The model follows it most of the time, and most of the time is not enough for speech.",
+ "quote": "I pair a contract the model is asked to follow with a deterministic layer that does not rely on it following.",
+ "evidence": [
+  "Speech synthesis pipelines: two layers between the model and the speaker, a prompt contract and a deterministic scrubber of about 800 lines on every clause.",
+  "Text normalisation for TTS: formulas, large numbers, paths and abbreviations rewritten only for the voice, while subtitles and history keep what the model wrote.",
+  "Property-based testing: every clause split checked to land on sentence-ending punctuation, under a 500-character ceiling."
+ ],
+ "problem": "voice",
+ "canonical": "https://coreyjames.ai/stories/saying-numbers-out-loud/",
+ "datePublished": "2026-10-28",
+ "author": "Corey James",
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/saying-numbers-out-loud"
+}
