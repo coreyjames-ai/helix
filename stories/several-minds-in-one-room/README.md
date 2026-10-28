@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/several-minds-in-one-room/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix) · [FAFOHive](https://github.com/coreyjames-ai/fafohive)  
 Technologies: [Context engineering and persistent agent memory](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/context-engineering-and-persistent-agent-memory) · [Idempotency, exactly-once effects and crash recovery](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/idempotency-exactly-once-effects-and-crash-recovery) · [Mattermost](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/mattermost) · [PostgreSQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust)  
 Skills: [exactly-once delivery and crash recovery](https://github.com/coreyjames-ai/portfolio/tree/main/skills/exactly-once-delivery-and-crash-recovery) · [distributed systems correctness](https://github.com/coreyjames-ai/portfolio/tree/main/skills/distributed-systems-correctness) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology) · [agent orchestration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/agent-orchestration)  
@@ -84,7 +85,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Several minds in one room." coreyjames.ai, 2026. https://coreyjames.ai/stories/several-minds-in-one-room/
+Corey James. "Several minds in one room." coreyjames.ai, 2026. https://coreyjames.ai/stories/several-minds-in-one-room/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-several-minds-in-one-room,
@@ -92,7 +93,8 @@ Corey James. "Several minds in one room." coreyjames.ai, 2026. https://coreyjame
   title = {Several minds in one room},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/several-minds-in-one-room/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/several-minds-in-one-room}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/several-minds-in-one-room},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

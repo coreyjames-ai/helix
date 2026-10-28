@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/three-hundred-milliseconds-of-hello/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Technologies: [Real-time audio pipeline engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/real-time-audio-pipeline-engineering) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust)  
 Skills: [real-time voice AI](https://github.com/coreyjames-ai/portfolio/tree/main/skills/real-time-voice-ai) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology) · [inference serving architecture](https://github.com/coreyjames-ai/portfolio/tree/main/skills/inference-serving-architecture)  
@@ -64,7 +65,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Three hundred milliseconds of hello." coreyjames.ai, 2026. https://coreyjames.ai/stories/three-hundred-milliseconds-of-hello/
+Corey James. "Three hundred milliseconds of hello." coreyjames.ai, 2026. https://coreyjames.ai/stories/three-hundred-milliseconds-of-hello/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-three-hundred-milliseconds-of-hello,
@@ -72,7 +73,8 @@ Corey James. "Three hundred milliseconds of hello." coreyjames.ai, 2026. https:/
   title = {Three hundred milliseconds of hello},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/three-hundred-milliseconds-of-hello/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/three-hundred-milliseconds-of-hello}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/three-hundred-milliseconds-of-hello},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

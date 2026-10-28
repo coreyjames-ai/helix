@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/a-tool-catalogue-bigger-than-the-model/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix) · [FAFOHive](https://github.com/coreyjames-ai/fafohive)  
 Technologies: [Context engineering and persistent agent memory](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/context-engineering-and-persistent-agent-memory) · [MCP tool design](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/mcp-tool-design) · [Model Context Protocol (MCP)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-context-protocol-mcp) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust)  
 Skills: [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology) · [tool synthesis and governed API integration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/tool-synthesis-and-governed-api-integration) · [distributed systems correctness](https://github.com/coreyjames-ai/portfolio/tree/main/skills/distributed-systems-correctness) · [inference serving architecture](https://github.com/coreyjames-ai/portfolio/tree/main/skills/inference-serving-architecture)  
@@ -71,7 +72,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "A tool catalogue bigger than the model." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-tool-catalogue-bigger-than-the-model/
+Corey James. "A tool catalogue bigger than the model." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-tool-catalogue-bigger-than-the-model/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-a-tool-catalogue-bigger-than-the-model,
@@ -79,7 +80,8 @@ Corey James. "A tool catalogue bigger than the model." coreyjames.ai, 2026. http
   title = {A tool catalogue bigger than the model},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/a-tool-catalogue-bigger-than-the-model/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/a-tool-catalogue-bigger-than-the-model}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/a-tool-catalogue-bigger-than-the-model},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

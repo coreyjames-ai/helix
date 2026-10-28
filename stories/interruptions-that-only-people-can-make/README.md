@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/interruptions-that-only-people-can-make/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Technologies: [Conversational turn-taking and barge-in](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/conversational-turn-taking-and-barge-in) · [Real-time audio pipeline engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/real-time-audio-pipeline-engineering) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust)  
 Skills: [real-time voice AI](https://github.com/coreyjames-ai/portfolio/tree/main/skills/real-time-voice-ai)  
@@ -73,7 +74,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Interruptions that only people can make." coreyjames.ai, 2026. https://coreyjames.ai/stories/interruptions-that-only-people-can-make/
+Corey James. "Interruptions that only people can make." coreyjames.ai, 2026. https://coreyjames.ai/stories/interruptions-that-only-people-can-make/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-interruptions-that-only-people-can-make,
@@ -81,7 +82,8 @@ Corey James. "Interruptions that only people can make." coreyjames.ai, 2026. htt
   title = {Interruptions that only people can make},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/interruptions-that-only-people-can-make/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/interruptions-that-only-people-can-make}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/interruptions-that-only-people-can-make},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

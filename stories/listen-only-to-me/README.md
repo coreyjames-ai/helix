@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/listen-only-to-me/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Technologies: [Applied cryptography](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/applied-cryptography) · [Conversational turn-taking and barge-in](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/conversational-turn-taking-and-barge-in) · [Real-time audio pipeline engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/real-time-audio-pipeline-engineering) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust)  
 
@@ -70,7 +71,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Listen only to me." coreyjames.ai, 2026. https://coreyjames.ai/stories/listen-only-to-me/
+Corey James. "Listen only to me." coreyjames.ai, 2026. https://coreyjames.ai/stories/listen-only-to-me/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-listen-only-to-me,
@@ -78,7 +79,8 @@ Corey James. "Listen only to me." coreyjames.ai, 2026. https://coreyjames.ai/sto
   title = {Listen only to me},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/listen-only-to-me/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/listen-only-to-me}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/listen-only-to-me},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

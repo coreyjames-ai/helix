@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/a-self-hosted-colleague-in-a-teams-call/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Technologies: [Axum](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/axum) · [Binary wire protocol design](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/binary-wire-protocol-design) · [C#](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/c-sharp) · [Conversational turn-taking and barge-in](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/conversational-turn-taking-and-barge-in) · [H.264](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/h-264) · [Mattermost](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/mattermost) · [Microsoft Azure](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-azure) · [Microsoft Graph](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-graph) · [Microsoft Teams](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-teams) · [Microsoft real-time media SDK](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-real-time-media-sdk) · [NVIDIA Blackwell GPUs](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/nvidia-blackwell-gpus) · [ONNX Runtime](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/onnx-runtime) · [Real-time audio pipeline engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/real-time-audio-pipeline-engineering) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust) · [Speech recognition model](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/speech-recognition-model) · [Speech synthesis model](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/speech-synthesis-model) · [Tokio](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/tokio) · [Vendor-integration reverse engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/vendor-integration-reverse-engineering) · [WebSocket](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/websocket)  
 Skills: [Microsoft Teams real-time media](https://github.com/coreyjames-ai/portfolio/tree/main/skills/microsoft-teams-real-time-media) · [real-time voice AI](https://github.com/coreyjames-ai/portfolio/tree/main/skills/real-time-voice-ai) · [distributed systems correctness](https://github.com/coreyjames-ai/portfolio/tree/main/skills/distributed-systems-correctness) · [Rust systems engineering](https://github.com/coreyjames-ai/portfolio/tree/main/skills/rust-systems-engineering)  
@@ -96,7 +97,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "A self-hosted colleague in a Teams call." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-self-hosted-colleague-in-a-teams-call/
+Corey James. "A self-hosted colleague in a Teams call." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-self-hosted-colleague-in-a-teams-call/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-a-self-hosted-colleague-in-a-teams-call,
@@ -104,7 +105,8 @@ Corey James. "A self-hosted colleague in a Teams call." coreyjames.ai, 2026. htt
   title = {A self-hosted colleague in a Teams call},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/a-self-hosted-colleague-in-a-teams-call/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/a-self-hosted-colleague-in-a-teams-call}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/a-self-hosted-colleague-in-a-teams-call},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

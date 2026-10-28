@@ -43,5 +43,8 @@
  "canonical": "https://coreyjames.ai/stories/a-self-hosted-colleague-in-a-teams-call/",
  "datePublished": "2026-10-28",
  "author": "Corey James",
- "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/a-self-hosted-colleague-in-a-teams-call"
+ "github": "https://github.com/coreyjames-ai/helix/tree/main/stories/a-self-hosted-colleague-in-a-teams-call",
+ "doi": "10.5281/zenodo.23735146",
+ "doi_relation": "part-of",
+ "author_orcid": "https://orcid.org/0009-0008-7246-963X"
 }

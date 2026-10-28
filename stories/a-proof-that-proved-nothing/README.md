@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/a-proof-that-proved-nothing/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Technologies: [Determinism and numerical reproducibility](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/determinism-and-numerical-reproducibility) · [ML evaluation methodology](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/ml-evaluation-methodology) · [Real-time audio pipeline engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/real-time-audio-pipeline-engineering) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust)  
 Skills: [speech recognition and synthesis pipelines](https://github.com/coreyjames-ai/portfolio/tree/main/skills/speech-recognition-and-synthesis-pipelines) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology)  
@@ -66,7 +67,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "A proof that proved nothing." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-proof-that-proved-nothing/
+Corey James. "A proof that proved nothing." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-proof-that-proved-nothing/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-a-proof-that-proved-nothing,
@@ -74,7 +75,8 @@ Corey James. "A proof that proved nothing." coreyjames.ai, 2026. https://coreyja
   title = {A proof that proved nothing},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/a-proof-that-proved-nothing/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/a-proof-that-proved-nothing}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/a-proof-that-proved-nothing},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

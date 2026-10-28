@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/saying-numbers-out-loud/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Technologies: [Conversational turn-taking and barge-in](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/conversational-turn-taking-and-barge-in) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust)  
 Skills: [speech recognition and synthesis pipelines](https://github.com/coreyjames-ai/portfolio/tree/main/skills/speech-recognition-and-synthesis-pipelines) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology) · [inference serving architecture](https://github.com/coreyjames-ai/portfolio/tree/main/skills/inference-serving-architecture)  
@@ -65,7 +66,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Saying numbers out loud." coreyjames.ai, 2026. https://coreyjames.ai/stories/saying-numbers-out-loud/
+Corey James. "Saying numbers out loud." coreyjames.ai, 2026. https://coreyjames.ai/stories/saying-numbers-out-loud/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-saying-numbers-out-loud,
@@ -73,7 +74,8 @@ Corey James. "Saying numbers out loud." coreyjames.ai, 2026. https://coreyjames.
   title = {Saying numbers out loud},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/saying-numbers-out-loud/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/saying-numbers-out-loud}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/saying-numbers-out-loud},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

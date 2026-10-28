@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/solving-the-digital-employee-identity/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Technologies: [Applied cryptography](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/applied-cryptography) · [C#](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/c-sharp) · [Identity and access management for AI agents](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/identity-and-access-management-for-ai-agents) · [Microsoft Agent 365](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-agent-365) · [Microsoft Entra ID](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-entra-id) · [Microsoft Graph](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-graph) · [Microsoft Teams](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-teams) · [Model Context Protocol (MCP)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-context-protocol-mcp) · [React](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/react) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust) · [rmcp (Rust MCP SDK)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rmcp-rust-mcp-sdk)  
 Skills: [Microsoft 365, Graph and Entra integration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/microsoft-365-graph-and-entra-integration) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology) · [OAuth 2.0 and identity architecture](https://github.com/coreyjames-ai/portfolio/tree/main/skills/oauth-2-0-and-identity-architecture) · [tool synthesis and governed API integration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/tool-synthesis-and-governed-api-integration)  
@@ -81,7 +82,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Solving the digital-employee identity." coreyjames.ai, 2026. https://coreyjames.ai/stories/solving-the-digital-employee-identity/
+Corey James. "Solving the digital-employee identity." coreyjames.ai, 2026. https://coreyjames.ai/stories/solving-the-digital-employee-identity/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-solving-the-digital-employee-identity,
@@ -89,7 +90,8 @@ Corey James. "Solving the digital-employee identity." coreyjames.ai, 2026. https
   title = {Solving the digital-employee identity},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/solving-the-digital-employee-identity/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/solving-the-digital-employee-identity}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/solving-the-digital-employee-identity},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

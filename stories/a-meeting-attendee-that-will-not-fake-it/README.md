@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Technologies: [Bash](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/bash) · [C#](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/c-sharp) · [Evidence-gated acceptance](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/evidence-gated-acceptance) · [FFmpeg](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/ffmpeg) · [H.264](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/h-264) · [JavaScript](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/javascript) · [MCP tool design](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/mcp-tool-design) · [Microsoft Agent 365](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-agent-365) · [Microsoft Graph](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-graph) · [Microsoft Teams](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/microsoft-teams) · [Model Context Protocol (MCP)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-context-protocol-mcp) · [React](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/react) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust) · [Speech recognition model](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/speech-recognition-model)  
 Skills: [evidence-gated acceptance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/evidence-gated-acceptance) · [tool synthesis and governed API integration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/tool-synthesis-and-governed-api-integration) · [distributed systems correctness](https://github.com/coreyjames-ai/portfolio/tree/main/skills/distributed-systems-correctness) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology)  
@@ -94,7 +95,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "A meeting attendee that will not fake it." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/
+Corey James. "A meeting attendee that will not fake it." coreyjames.ai, 2026. https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-a-meeting-attendee-that-will-not-fake-it,
@@ -102,7 +103,8 @@ Corey James. "A meeting attendee that will not fake it." coreyjames.ai, 2026. ht
   title = {A meeting attendee that will not fake it},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/a-meeting-attendee-that-will-not-fake-it/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/a-meeting-attendee-that-will-not-fake-it}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/a-meeting-attendee-that-will-not-fake-it},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/from-a-conversation-to-a-work-order/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix) · [AgentOS](https://github.com/coreyjames-ai/agentos) · [FAFOHive](https://github.com/coreyjames-ai/fafohive)  
 Technologies: [Context engineering and persistent agent memory](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/context-engineering-and-persistent-agent-memory) · [Governed AI-assisted software engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/governed-ai-assisted-software-engineering) · [Model Context Protocol (MCP)](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/model-context-protocol-mcp) · [PostgreSQL](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/postgresql) · [Rust](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/rust)  
 Skills: [agent orchestration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/agent-orchestration) · [tool synthesis and governed API integration](https://github.com/coreyjames-ai/portfolio/tree/main/skills/tool-synthesis-and-governed-api-integration) · [multi-agent governance](https://github.com/coreyjames-ai/portfolio/tree/main/skills/multi-agent-governance) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology)  
@@ -82,7 +83,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "From a conversation to a work order." coreyjames.ai, 2026. https://coreyjames.ai/stories/from-a-conversation-to-a-work-order/
+Corey James. "From a conversation to a work order." coreyjames.ai, 2026. https://coreyjames.ai/stories/from-a-conversation-to-a-work-order/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-from-a-conversation-to-a-work-order,
@@ -90,7 +91,8 @@ Corey James. "From a conversation to a work order." coreyjames.ai, 2026. https:/
   title = {From a conversation to a work order},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/from-a-conversation-to-a-work-order/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/from-a-conversation-to-a-work-order}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/from-a-conversation-to-a-work-order},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 

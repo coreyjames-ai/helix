@@ -4,6 +4,7 @@
 
 Canonical: https://coreyjames.ai/stories/fast-transcripts-that-were-wrong/  
 Author: Corey James · Published: 2026-10-28 · Kind: story  
+DOI: https://doi.org/10.5281/zenodo.23735146 (this page is a chapter of the system's report)  
 Systems: [Helix](https://github.com/coreyjames-ai/helix)  
 Technologies: [Docker](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/docker) · [ML evaluation methodology](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/ml-evaluation-methodology) · [NVIDIA Blackwell GPUs](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/nvidia-blackwell-gpus) · [Real-time audio pipeline engineering](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/real-time-audio-pipeline-engineering) · [Speech recognition model](https://github.com/coreyjames-ai/portfolio/tree/main/technologies/speech-recognition-model)  
 Skills: [GPU inference optimisation](https://github.com/coreyjames-ai/portfolio/tree/main/skills/gpu-inference-optimisation) · [AI-assisted engineering methodology](https://github.com/coreyjames-ai/portfolio/tree/main/skills/ai-assisted-engineering-methodology) · [distributed systems correctness](https://github.com/coreyjames-ai/portfolio/tree/main/skills/distributed-systems-correctness) · [inference serving architecture](https://github.com/coreyjames-ai/portfolio/tree/main/skills/inference-serving-architecture)  
@@ -65,7 +66,7 @@ Each line is a claim the canonical page supports, with the figure as the page st
 
 ## Citation
 
-Corey James. "Fast transcripts that were wrong." coreyjames.ai, 2026. https://coreyjames.ai/stories/fast-transcripts-that-were-wrong/
+Corey James. "Fast transcripts that were wrong." coreyjames.ai, 2026. https://coreyjames.ai/stories/fast-transcripts-that-were-wrong/ In: the Helix technical report, doi:10.5281/zenodo.23735146.
 
 ```bibtex
 @misc{coreyjames-fast-transcripts-that-were-wrong,
@@ -73,7 +74,8 @@ Corey James. "Fast transcripts that were wrong." coreyjames.ai, 2026. https://co
   title = {Fast transcripts that were wrong},
   year = {2026},
   howpublished = {\url{https://coreyjames.ai/stories/fast-transcripts-that-were-wrong/}},
-  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/fast-transcripts-that-were-wrong}
+  note = {GitHub copy: https://github.com/coreyjames-ai/helix/tree/main/stories/fast-transcripts-that-were-wrong},
+  doi = {10.5281/zenodo.23735146}
 }
 ```
 
